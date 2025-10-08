@@ -18,6 +18,6 @@ const Admin: { id: string; pin: number | null; isAdmin: boolean } = {
 };
 Admin.id = "Ak";
 console.log(Admin);
-Admin.pin = 123;
+Admin.pin = 1233;
 console.log(Admin);
 
