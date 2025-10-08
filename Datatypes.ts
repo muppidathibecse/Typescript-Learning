@@ -12,15 +12,3 @@ console.log("String :  Name   : ", yourname);
 console.log("Number :  Age    : ", yourage);
 console.log("Float  :  Height :", yourheight);
 console.log("Boolean:  Reult  :", yourexam);
-
-var User = {
-  name: "",
-  password: "",
-  pin: 0,
-};
-(User.name = "Aa"), (User.password = "***"), (User.pin = 1234);
-console.log("Objct:");
-console.log("==");
-console.log(User.name);
-console.log(User.password);
-console.log(User.pin);
