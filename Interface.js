@@ -1,0 +1,10 @@
+var Admins = [];
+Admins.push({ adminid: "A@123", adminpin: 123, isAdmin: true });
+Admins.push({ adminid: "B@123", adminpin: 124, isAdmin: false });
+Admins.push({ adminid: "C@123", adminpin: 125, isAdmin: true });
+Admins.push({ adminid: "D@123", adminpin: 126, isAdmin: false });
+console.log(Admins);
+var admins = Admins.filter(function (a) { return a.isAdmin == true; });
+console.log(admins);
+admins = Admins.filter(function (a) { return a.adminpin == 126; });
+console.log(admins);
